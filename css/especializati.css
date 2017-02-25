@@ -1,0 +1,50 @@
+/* Utilidades */
+.oculta{
+    font-size: 0px;
+    margin:0px;
+    padding: 0px;
+}
+
+img.logo{
+    max-width:200px;}
+
+/* Background Parallax*/
+
+/* Background Colors*/
+
+/* Cores */
+
+/* Resets */
+
+/* Fonts Sizes*/
+
+/* Paddings */
+
+/* Header */
+.header{
+    background-color: #33B5E5;
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
+.logo{
+    float: left;}
+
+ul.menu{
+    list-style: none;
+    float: right;
+    margin-top: 8px;
+}
+ul.menu li{
+    display: inline;
+}
+ul.menu li a{
+    margin: 8px 32px;
+    color: #fff;
+    /* font-weight: bold; */
+    font-size: 16px;
+}
+ul.menu li a:hover{
+    color: #525252;
+    text-decoration: none;
+}

@@ -30,9 +30,8 @@ img.logo{
     max-width:200px;}
 
 /* Background Parallax*/
-.background-parallax-slide{
-    background: url("../imgs/background-parallax-home.png");background-attachment: fixed;
-}
+.background-parallax-slide{background: url("../imgs/background-parallax-home.png");background-attachment: fixed;}
+.background-parallax-detalhes{background: url("../imgs/background-parallax.png");background-attachment: fixed;}
 
 /* Background Colors*/
 

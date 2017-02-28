@@ -84,6 +84,47 @@ a:hover{
 .padding-70{padding: 70px 0px;}
 .padding-80{padding: 80px 0px;}
 
+/* Forms */
+form.especializati-form{
+    max-width: 550px;
+    margin: 0 auto;
+}
+form.especializati-form input{
+    width: 100%;
+    margin: 5px;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+form.especializati-form textarea{
+    padding: 5px;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    width: 100%;
+    min-height: 120px;
+}
+
+form.especializati-form input[type="submit"]{
+    background: #FFCA33;
+    color: #FFF;
+    font-size: 18px;
+    width: 140px;
+    margin: 5px auto;
+    border-radius: 4px;
+}
+
+form.especializati-form input[type="submit"]:hover{
+    background: #FFFFFF;
+    color: #FFCA33;
+}
+
 /* Header */
 .header{
     background-color: #33B5E5;
@@ -130,6 +171,9 @@ ul.menu li a:hover{
 .detalhe-sobre{
     margin-top: 32px;
 }
+.detalhe-sobre img{
+    height:32px;
+}
 .titulo-sobre{
     font-size: 18px;
     font-weight: bold;
@@ -150,3 +194,51 @@ ul.menu li a:hover{
     font-weight: bold;
     margin-top: 8px;
 }
+/* Projeto Pratico*/
+.projeto-curso{
+    padding: 0px !important;
+}
+.img-projeto-pratico{
+    max-width: 100%;
+    position: absolute;
+    z-index: 0;
+    float: left;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+}
+.detalhe-sobre-projeto{
+    z-index: 5;
+    position: relative;
+    margin-top: 0px;
+    padding: 8px;
+    background-color: #33B5E5;
+    color: #fff;
+    width: 100%;
+    min-height: 178px;
+    opacity: 0;
+}
+.detalhe-sobre-projeto:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.titulo-detalhe-projeto{
+    font-size: 20px;
+}
+.descricao-projeto{
+    font-size: 12px;
+}
+
+/* Contato Form*/
+.contato-form{
+    background-color: #505050;
+    padding: 52px 0px;
+}
+
+/* Copy */
+div.copyright{
+    background-color: #333;
+    margin: 0px;
+    padding: 8px;
+}
+p.copyright{color: #FFF;margin: 0px;}
